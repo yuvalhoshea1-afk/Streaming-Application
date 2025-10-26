@@ -50,7 +50,6 @@ python client/main.py
 ## Client Notes
 
 * The client connects to the server to receive and play the stream.
-* Avoid uploading large local files directly to GitHub; use `.gitignore` or Git LFS.
 
 ## Requirements
 
