@@ -24,7 +24,12 @@ cd Streaming-Application
 pip install -r requirements.txt
 ```
 
-## Usage
+## Configuration
+
+* Before running, adjust the `.env` files in both the server and client directories to set the correct `IP` and `PORT` values for your network environment.
+* To add more videos, place them in the `server/videos/` folder following the same naming and format as the existing videos.
+
+## Running
 
 * Start the server first:
 
@@ -38,19 +43,12 @@ python server/server.py
 python client/main.py
 ```
 
-## Configuration
-
-* Before running, adjust the `.env` files in both the server and client directories to set the correct `IP` and `PORT` values for your network environment.
-* To add more videos, place them in the `server/videos/` folder following the same naming and format as the existing videos.
-
 ## Server Notes
 
 * Keep the required folders (`server/videos/`, etc.) in place.
-* Do not include large database or cache files in GitHub; use `.gitignore` or Git LFS as needed.
 
 ## Client Notes
 
-* Ensure any required folders (for example, `client/assets/`) exist.
 * The client connects to the server to receive and play the stream.
 * Avoid uploading large local files directly to GitHub; use `.gitignore` or Git LFS.
 
