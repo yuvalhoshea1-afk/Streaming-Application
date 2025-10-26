@@ -1,0 +1,5 @@
+__pycache__/
+*.cmd
+*.sqlite3
+.DS_Store
+.gitignore
