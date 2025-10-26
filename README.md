@@ -8,8 +8,10 @@ Streaming-Application is a Python video streaming player. It uses **socket progr
 * User-friendly GUI built with PyQt5.
 * Modular design with separate server and client components.
 
+## Demo Screens
+
 <details>
-  <summary>## Demo Screens</summary>
+  <summary>Show/Hide Demo</summary>
 
   ### Application Start
   ![App Start](images/app_start.png)
@@ -30,7 +32,6 @@ Streaming-Application is a Python video streaming player. It uses **socket progr
   ![Playing Video without Logs](images/video_without_logs.png)
 
 </details>
-
 
 
 ## Installation
