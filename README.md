@@ -40,8 +40,8 @@ python client/main.py
 
 ## Configuration
 
-* Before running, make sure to adjust the `.env` files in both the server and client directories to set the correct `IP` and `PORT` values for your network environment.
-* To add more videos, simply place them in the `server/videos/` folder following the same naming and format conventions as the existing videos.
+* Before running, adjust the `.env` files in both the server and client directories to set the correct `IP` and `PORT` values for your network environment.
+* To add more videos, place them in the `server/videos/` folder following the same naming and format as the existing videos.
 
 ## Server Notes
 
