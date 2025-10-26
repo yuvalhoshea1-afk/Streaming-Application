@@ -9,7 +9,7 @@ Streaming-Application is a Python video streaming player. It uses **socket progr
 * Modular design with separate server and client components.
 
 <details>
-  <summary>Demo Screens</summary>
+  <summary>## Demo Screens</summary>
 
   ### Application Start
   ![App Start](images/app_start.png)
